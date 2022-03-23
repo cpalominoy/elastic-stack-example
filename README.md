@@ -29,3 +29,12 @@ Execute the PHP sample application
 ```
 php app/php/app.php -a fo1 -b bar
 ```
+
+## errores
+![](docs/images/error-elasticsearch.png)
+
+### solución
+![](docs/images/solution-error-elks.png)
+
+https://stackoverflow.com/questions/59957542/can%C2%B4t-start-elasticsearch-docker-container
+

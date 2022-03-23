@@ -17,7 +17,7 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - './var/elasticsearch:/usr/share/elasticsearch/data'
+      - './var/elasticsearch:/var/lib/elasticsearch/data'
 
   logstash:
     image: docker.elastic.co/logstash/logstash:7.5.0
